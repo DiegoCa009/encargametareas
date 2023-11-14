@@ -50,10 +50,14 @@ h1{
 }
 
 button{
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
   cursor: pointer;
   font-family: var(--button);
-  letter-spacing: 2px;
   font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 10px;
 }
 
 p{

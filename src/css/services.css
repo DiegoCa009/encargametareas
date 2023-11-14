@@ -1,0 +1,23 @@
+div.services-images{
+  padding: 10px;
+  column-count: 8;
+  column-gap: 2px;
+  width: 100%;
+  height: 100%;
+}
+
+div.services-images img{
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(1,1fr);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+div.services-images img:hover
+{
+  
+}
+
+
+
