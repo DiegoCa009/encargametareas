@@ -12,6 +12,9 @@
     <title>Vite + TS</title>
   </head>
   <body>
+        <container-info>
+            <p slot="img">Funcionando</p>
+        </container-info>
 
     <div id="app" >
         <div class="container">
@@ -51,16 +54,23 @@
              </div>
         </div>  
         <div class="container">
-          <div class="container_info center-row" >
-            <div class="container_info-left center">
-              <img class="float animate__animated animate__bounceInUp" src="/images/stickers/3.png" alt="" />
+            <div class="container_info center-row" >
+              <div class="container_info-left center">
+                <img class="float animate__animated animate__bounceInUp" src="/images/stickers/4.png" alt="" />
+              </div>
+              <section class="container_info-right center-column ">
+                <h2>Contáctanos enviando tu idea para después recibir una propuesta.</h2>
+                <textarea placeholder="Envianos mensaje" name="" id=""></textarea>
+                <div class="flex-end">
+                    <img class="info-icon" src="./public/images/icons/whatsapp.svg" alt="">
+                    <button>Enviar</button>
+                </div>
+              </section>
             </div>
-            <section class="container_info-right center ">
-              Envianos tu idea 
-            </section>
-          </div>
-        </div>  
+          </div>  
+          <card-tag image="4"></card-tag>  
       </div>
+      
       <nav class="flex-end">
         <ul class="center-row">
           <p class="nav-p center"><span class="material-symbols-outlined">arrow_forward_ios</span><span class="menu-text">Nosotros</span></p>
@@ -70,7 +80,8 @@
           <li><img  class="icons" src="./public/images/stickers/4.png" alt=""></li>
         </ul>
       </nav>
-  
+
+     
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
